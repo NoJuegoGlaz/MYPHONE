@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbox</title>
+  <link rel="stylesheet" href="estilos/index.css">
+  <link rel="stylesheet" href="estilos/basico.css"> 
+</head>
+
+<body>
+  <div class="cabeza">
+    <div class="logo">
+      <img src="imgs/logoMyphone.png" alt="">
+    </div>
+    <div class="menu">
+      <a href="basico.html"><span>BÁSICO</span></a>
+
+      <a href="index.html"><span>AVANZADO</span></a>
+
+      <a href="premontajes.html"><span>PREMONTAJES</span></a>
+    </div>
+
+    <div class="carroPerfil">
+      <div class="perfil">
+        <img src="imgs/perfilUsuario.png" alt="">
+        <p>Mi perfil</p>
+      </div>
+
+      <div class="carrito">
+        <img src="imgs/carritoCompra.png" alt="">
+        <p>Carrito</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <div class="card-header">
+      <div class="img-avatar"></div>
+      <div class="text-chat">MYPHONE ASSISTANT</div>
+    </div>
+    <div class="card-body">
+      <div class="messages-container">
+        
+        
+      </div>
+
+    </div>
+    <div class="message-input">
+      <form id="messageForm">
+        <textarea placeholder="Escribe..." class="message-send"></textarea>
+        <button type="submit" id="sendBtn">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="JS/chatbox.js"></script>
+  
+</body>
+
+</html>
