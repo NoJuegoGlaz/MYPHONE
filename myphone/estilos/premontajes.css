@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;    
+    background-color: #f4f4f4;   
+    font-size: clamp(14px, 5vw, 23px);  
+    
+}
+
+.cabeza {    
+    align-items: center;  
+    border-bottom: 4px solid rgb(10, 121, 135);    
+    display: flex;
+    justify-content: space-between;     
+}
+
+.logo {    
+    width: 10%; 
+    min-width: 10%; 
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {  
+    display: inline-flex;  
+    justify-content: space-between;   
+    gap: 3%;       
+}
+
+
+.menu a {    
+    font-size: clamp(14px, 3.5vw, 27px);
+    display: inline-flex;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;       
+}
+
+.menu a span {
+    border-bottom: 2px solid transparent; /* Borde transparente por defecto */
+    transition: border-color 0.3s ease; /* Transición suave */
+}
+
+.menu a:hover span {
+    border-color: gray; /* Cambia el color del borde al hacer hover */
+}
+
+.carroPerfil {
+    min-width:0;
+    width: 20%;
+    height: 55px;
+    min-height: 0;
+    display: flex; 
+    flex-wrap: nowrap;         
+    font-size: clamp(12px, 2vw, 18px);     
+}
+
+.perfil{
+    width: 50%;
+    display: flex; 
+    flex-wrap: nowrap; 
+    
+}
+.perfil img{
+    
+min-width:0;
+    
+}
+
+.carrito{
+    width: 50%;
+    margin-top: 2%;
+    display: flex; 
+    flex-wrap: nowrap;    
+    gap: 3%;
+}
+
+.carrito img{   
+        min-width:0;
+        width: 40%;
+        height: 90%;
+}
+
+.galeria{   
+    display: flex;     
+    justify-content: space-between;
+
+}
