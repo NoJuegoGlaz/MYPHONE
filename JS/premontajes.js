@@ -2,9 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("../baseDatos/premontajes.json") // Cambia el archivo a JSON
         .then(response => response.json()) // Parsear el JSON
         .then(data => {
-            console.log(data); // Procesa el JSON como necesites
-            let configuraciones = data.configuraciones; // Acceder al array de configuraciones
-            
+            console.log(data); // Verifica el contenido del JSON en la consola
+
+            // Accedemos al array "configuracion"
+            let configuraciones = data.configuraciones.configuracion;
+
             let divProductoContainer = document.getElementById("galeria");
 
             // Crear productos desde el JSON
@@ -86,5 +88,3 @@ function agregarEventosBotones(configuraciones) {
         });
     });
 }
-
-  
