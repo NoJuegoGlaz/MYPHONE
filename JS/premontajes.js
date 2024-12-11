@@ -1,10 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let xmlDoc = new XMLHttpRequest();
-    xmlDoc.open("GET", "../baseDatos/premontajes.xml", false);
-    xmlDoc.send();
-    let xml = xmlDoc.responseXML;
-  
-    console.log(xml);
+    fetch("../baseDatos/premontajes.xml")
+        .then(response => response.text())
+        .then(data => {
+            // Crear un parser XML
+            let parser = new DOMParser();
+            let xml = parser.parseFromString(data, "application/xml");
+            console.log(xml); // Aquí puedes seguir procesando el XML
+        })
+        .catch(error => {
+            console.error("Error al cargar el archivo XML:", error);
+        });
+});
+
   
     let divProductoContainer = document.getElementById("galeria");
     let configuracion = xml.getElementsByTagName("configuracion");
