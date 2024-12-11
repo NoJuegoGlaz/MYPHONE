@@ -1,21 +1,33 @@
 document.addEventListener("DOMContentLoaded", function () {
     fetch("../baseDatos/premontajes.xml")
-        .then(response => response.text())
+        .then(response => response.text()) // Cargar XML como texto
         .then(data => {
             // Crear un parser XML
             let parser = new DOMParser();
             let xml = parser.parseFromString(data, "application/xml");
-            console.log(xml); // Aquí puedes seguir procesando el XML
+
+            // Aquí es donde deberías mover todo tu código que usa xml
+            let configuracion = xml.getElementsByTagName("configuracion");
+            let divProductoContainer = document.getElementById("galeria");
+
+            // Aquí sigue el resto de tu lógica
+            for (let i = 0; i < configuracion.length; i++) {
+                // ... tu código aquí
+            }
+
+            // Función para agregar eventos a los botones
+            function agregarEventosBotones() {
+                // ... tu código aquí
+            }
+
+            // Llamamos a la función después de que todo esté en el DOM
+            agregarEventosBotones();
         })
         .catch(error => {
             console.error("Error al cargar el archivo XML:", error);
         });
 });
 
-  
-    let divProductoContainer = document.getElementById("galeria");
-    let configuracion = xml.getElementsByTagName("configuracion");
-  
     // Primero creamos los productos
     for (let i = 0; i < configuracion.length; i++) {
       let configuracionItem = configuracion[i];
