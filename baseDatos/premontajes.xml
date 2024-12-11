@@ -1,0 +1,301 @@
+<configuraciones>
+    <configuracion>
+        <titulo>El precio más económico</titulo>
+        <camara>20 MP</camara>
+        <bateria>3000 mAh</bateria>
+        <almacenamiento>64 GB</almacenamiento>
+        <ram>2 GB</ram>
+        <procesador>4 núcleos, 1.8 GHz</procesador>
+        <pantalla>5.0"</pantalla>
+        <diseno>Blanco</diseno>
+        <precio>68€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Básico, precio bajo</titulo>
+        <camara>40 MP</camara>
+        <bateria>4000 mAh</bateria>
+        <almacenamiento>128 GB</almacenamiento>
+        <ram>4 GB</ram>
+        <procesador>6 núcleos, 2.0 GHz</procesador>
+        <pantalla>6.0"</pantalla>
+        <diseno>Negro</diseno>
+        <precio>116€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Equilibrado, precio medio</titulo>
+        <camara>80 MP</camara>
+        <bateria>5000 mAh</bateria>
+        <almacenamiento>256 GB</almacenamiento>
+        <ram>8 GB</ram>
+        <procesador>8 núcleos, 2.4 GHz</procesador>
+        <pantalla>6.5"</pantalla>
+        <diseno>Rojo</diseno>
+        <precio>230€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Especificaciones mejores que la media, precio alto</titulo>
+        <camara>160 MP</camara>
+        <bateria>6000 mAh</bateria>
+        <almacenamiento>512 GB</almacenamiento>
+        <ram>16 GB</ram>
+        <procesador>8 núcleos, 2.8 GHz</procesador>
+        <pantalla>6.8"</pantalla>
+        <diseno>Azul</diseno>
+        <precio>366€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Las mejores características,excepto Ram, precio alto</titulo>
+        <camara>320 MP</camara>
+        <bateria>7000 mAh</bateria>
+        <almacenamiento>1 TB</almacenamiento>
+        <ram>32 GB</ram>
+        <procesador>8 núcleos, 3.0 GHz</procesador>
+        <pantalla>7.2"</pantalla>
+        <diseno>Rosa</diseno>
+        <precio>601€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Ram media, precio bajo</titulo>
+        <camara>40 MP</camara>
+        <bateria>3000 mAh</bateria>
+        <almacenamiento>128 GB</almacenamiento>
+        <ram>8 GB</ram>
+        <procesador>4 núcleos, 1.8 GHz</procesador>
+        <pantalla>5.0"</pantalla>
+        <diseno>Negro</diseno>
+        <precio>131€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Almacenamiento y cámara medio, precio bajo</titulo>
+        <camara>80 MP</camara>
+        <bateria>4000 mAh</bateria>
+        <almacenamiento>256 GB</almacenamiento>
+        <ram>4 GB</ram>
+        <procesador>6 núcleos, 2.0 GHz</procesador>
+        <pantalla>6.0"</pantalla>
+        <diseno>Azul</diseno>
+        <precio>184€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Ram potente,batería muy alta, precio medio</titulo>
+        <camara>20 MP</camara>
+        <bateria>7000 mAh</bateria>
+        <almacenamiento>64 GB</almacenamiento>
+        <ram>16 GB</ram>
+        <procesador>8 núcleos, 3.0 GHz</procesador>
+        <pantalla>6.8"</pantalla>
+        <diseno>Blanco</diseno>
+        <precio>421€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Buena cámara y almacenamiento, precio medio</titulo>
+        <camara>160 MP</camara>
+        <bateria>5000 mAh</bateria>
+        <almacenamiento>512 GB</almacenamiento>
+        <ram>2 GB</ram>
+        <procesador>4 núcleos, 1.8 GHz</procesador>
+        <pantalla>6.5"</pantalla>
+        <diseno>Rojo</diseno>
+        <precio>294€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Muy buena cámara y gran almacenamiento, precio medio-alto</titulo>
+        <camara>320 MP</camara>
+        <bateria>6000 mAh</bateria>
+        <almacenamiento>1 TB</almacenamiento>
+        <ram>4 GB</ram>
+        <procesador>6 núcleos, 2.0 GHz</procesador>
+        <pantalla>7.2"</pantalla>
+        <diseno>Rosa</diseno>
+        <precio>510€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Almacenamiento y Ram medio, precio bajo</titulo>
+        <camara>40 MP</camara>
+        <bateria>3000 mAh</bateria>
+        <almacenamiento>256 GB</almacenamiento>
+        <ram>8 GB</ram>
+        <procesador>8 núcleos, 2.4 GHz</procesador>
+        <pantalla>6.0"</pantalla>
+        <diseno>Azul</diseno>
+        <precio>244€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Gran batería y Ram, precio medio</titulo>
+        <camara>80 MP</camara>
+        <bateria>7000 mAh</bateria>
+        <almacenamiento>128 GB</almacenamiento>
+        <ram>16 GB</ram>
+        <procesador>8 núcleos, 2.8 GHz</procesador>
+        <pantalla>7.2"</pantalla>
+        <diseno>Rosa</diseno>
+        <precio>414€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Buen Almacenamiento y la mejor Ram, precio medio</titulo>
+        <camara>20 MP</camara>
+        <bateria>4000 mAh</bateria>
+        <almacenamiento>512 GB</almacenamiento>
+        <ram>32 GB</ram>
+        <procesador>6 núcleos, 2.0 GHz</procesador>
+        <pantalla>6.8"</pantalla>
+        <diseno>Blanco</diseno>
+        <precio>320€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Cámara buena, precio bajo</titulo>
+        <camara>160 MP</camara>
+        <bateria>5000 mAh</bateria>
+        <almacenamiento>64 GB</almacenamiento>
+        <ram>4 GB</ram>
+        <procesador>4 núcleos, 1.8 GHz</procesador>
+        <pantalla>6.5"</pantalla>
+        <diseno>Negro</diseno>
+        <precio>203€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>La mejor cámara, precio medio</titulo>
+        <camara>320 MP</camara>
+        <bateria>3000 mAh</bateria>
+        <almacenamiento>1 TB</almacenamiento>
+        <ram>8 GB</ram>
+        <procesador>8 núcleos, 3.0 GHz</procesador>
+        <pantalla>5.0"</pantalla>
+        <diseno>Rojo</diseno>
+        <precio>484€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Buena batería y almacenamiento, precio bajo</titulo>
+        <camara>40 MP</camara>
+        <bateria>6000 mAh</bateria>
+        <almacenamiento>256 GB</almacenamiento>
+        <ram>2 GB</ram>
+        <procesador>6 núcleos, 2.0 GHz</procesador>
+        <pantalla>6.8"</pantalla>
+        <diseno>Azul</diseno>
+        <precio>228€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>La mejor batería, precio bajo-medio</titulo>
+        <camara>80 MP</camara>
+        <bateria>7000 mAh</bateria>
+        <almacenamiento>128 GB</almacenamiento>
+        <ram>4 GB</ram>
+        <procesador>8 núcleos, 2.4 GHz</procesador>
+        <pantalla>7.2"</pantalla>
+        <diseno>Rosa</diseno>
+        <precio>343€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>La mejor Ram, precio bajo-medio</titulo>
+        <camara>20 MP</camara>
+        <bateria>5000 mAh</bateria>
+        <almacenamiento>64 GB</almacenamiento>
+        <ram>32 GB</ram>
+        <procesador>4 núcleos, 1.8 GHz</procesador>
+        <pantalla>6.0"</pantalla>
+        <diseno>Negro</diseno>
+        <precio>284€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Buena cámara,Ram y almacenamiento, precio bajo</titulo>
+        <camara>160 MP</camara>
+        <bateria>3000 mAh</bateria>
+        <almacenamiento>512 GB</almacenamiento>
+        <ram>16 GB</ram>
+        <procesador>8 núcleos, 2.8 GHz</procesador>
+        <pantalla>6.8"</pantalla>
+        <diseno>Blanco</diseno>
+        <precio>370€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>La mejor cámara,almacenamiento y procesador, precio medio</titulo>
+        <camara>320 MP</camara>
+        <bateria>4000 mAh</bateria>
+        <almacenamiento>1 TB</almacenamiento>
+        <ram>8 GB</ram>
+        <procesador>8 núcleos, 2.4 GHz</procesador>
+        <pantalla>7.2"</pantalla>
+        <diseno>Rojo</diseno>
+        <precio>448€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>La mejor batería, precio bajo</titulo>
+        <camara>40 MP</camara>
+        <bateria>7000 mAh</bateria>
+        <almacenamiento>256 GB</almacenamiento>
+        <ram>2 GB</ram>
+        <procesador>6 núcleos, 2.0 GHz</procesador>
+        <pantalla>6.5"</pantalla>
+        <diseno>Negro</diseno>
+        <precio>243€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>El mejor procesador y buena Ram, precio medio</titulo>
+        <camara>80 MP</camara>
+        <bateria>5000 mAh</bateria>
+        <almacenamiento>128 GB</almacenamiento>
+        <ram>16 GB</ram>
+        <procesador>8 núcleos, 3.0 GHz</procesador>
+        <pantalla>6.0"</pantalla>
+        <diseno>Rosa</diseno>
+        <precio>406€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>El mejor procesador, precio bajo</titulo>
+        <camara>20 MP</camara>
+        <bateria>6000 mAh</bateria>
+        <almacenamiento>64 GB</almacenamiento>
+        <ram>4 GB</ram>
+        <procesador>8 núcleos, 2.8 GHz</procesador>
+        <pantalla>6.8"</pantalla>
+        <diseno>Blanco</diseno>
+        <precio>222€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>Buenas especificaciones generales y la mejor batería, precio alto</titulo>
+        <camara>160 MP</camara>
+        <bateria>7000 mAh</bateria>
+        <almacenamiento>512 GB</almacenamiento>
+        <ram>32 GB</ram>
+        <procesador>8 núcleos, 3.0 GHz</procesador>
+        <pantalla>7.2"</pantalla>
+        <diseno>Azul</diseno>
+        <precio>601€</precio>
+    </configuracion>
+
+    <configuracion>
+        <titulo>La mejor camara, precio medio</titulo>
+        <camara>320 MP</camara>
+        <bateria>3000 mAh</bateria>
+        <almacenamiento>1 TB</almacenamiento>
+        <ram>2 GB</ram>
+        <procesador>4 núcleos, 1.8 GHz</procesador>
+        <pantalla>5.0"</pantalla>
+        <diseno>Rojo</diseno>
+        <precio>421€</precio>
+    </configuracion>
+</configuraciones>

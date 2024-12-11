@@ -1,0 +1,127 @@
+/* From Uiverse.io by ahmed150up */
+.card-container {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 2% 0 0 3%;
+    display: flex;
+    flex-direction: column;
+    width: 90%; 
+    height: 60vh;   
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .card-header .img-avatar {
+    width: 5%;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-image: url("../imgs/logoMyphone.png");
+    background-size: cover; /* Escala la imagen para llenar el círculo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita repeticiones */
+  }
+  
+  .card-header .text-chat {
+    color: black;
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .card-body {
+    flex: 1;
+    margin-left: 2%;
+    max-height: 400px; /* Limita la altura del área de mensajes */
+    overflow-y: auto; /* Agrega scroll vertical si hay muchos mensajes */
+    padding: 15px;
+  }
+  
+  .messages-container {
+    padding: 15px;
+    height: fit-content;   
+    
+  }
+  
+  .message-box {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+  
+  .message-box.left {
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 13px;
+    left: 0;
+  }
+  
+  .message-box.right {
+    background-color: rgb(10, 121, 135);
+    color: #fff;
+    font-size: 13px;
+    right: 0;
+  }
+  
+  .message-input {
+    position: sticky; /* Fija el input en la parte inferior del contenedor */
+    bottom: 0; /* Lo mantiene en el fondo */
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+    padding: 10px;    
+    width: 100%;     
+  }
+  .message-input textarea{
+overflow: hidden;
+
+  }
+  .message-input textarea ::placeholder{
+color: #333;
+  }
+  
+  .message-input .message-send {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+  }
+  
+  .message-input .button-send {
+    background-color: rgb(10, 121, 135);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+  #sendBtn{
+    
+    width: 7%;  /* La imagen seleccionada se ajustará al tamaño del contenedor */
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;  
+    border-style: none;
+    border-color:rgb(14, 150, 168) ;      
+    background-color: rgb(14, 150, 168);
+  }
+  .message-input .button-send:hover {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  footer{
+    background-color:  rgb(10, 121, 135);    
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;  
+  border-bottom-right-radius: 10px; 
+  }
+  

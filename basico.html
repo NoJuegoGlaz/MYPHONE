@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbox</title>
+  <link rel="stylesheet" href="estilos/index.css">
+  <link rel="stylesheet" href="estilos/basico.css"> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cabeza">
+    <div class="logo">
+      <img src="imgs/logoMyphone.png" alt="">
+    </div>
+    <div class="menu">
+      <a href="basico.html"><span>BÁSICO</span></a>
+
+      <a href="index.html"><span>AVANZADO</span></a>
+
+      <a href="premontajes.html"><span>PREMONTAJES</span></a>
+    </div>
+
+    <div class="carroPerfil">
+      <div class="perfil">
+        <img src="imgs/user.png" alt="">        
+      </div>
+
+      <div class="carrito">
+        <img src="imgs/shopping-cart.png" alt="">        
+      </div>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <div class="card-header">
+      <div class="img-avatar"></div>
+      <div class="text-chat">MYPHONE ASSISTANT</div>
+    </div>
+    <div class="card-body">
+      <div class="messages-container">
+        
+        
+      </div>
+
+    </div>
+    <div class="message-input">
+
+      <form id="messageForm">
+        <textarea placeholder="Escribe..." class="message-send"></textarea>
+        <button type="submit" id="sendBtn">Enviar</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>CONTACTO:</p>
+    <p> <i class="fas fa-phone"></i> Teléfono: +643 13 95 42</a></p>
+    <p> <i class="fas fa-envelope"></i> Correo: myphonempresa@gmail.com</a></p>
+    <p> <i class="fas fa-map-marker-alt"></i> Ubicación: Calle Jaén 13, Albuñol, Granada, España</p>
+
+</footer>
+  
+
+  <script src="JS/chatbox.js"></script>
+  
+</body>
+
+</html>

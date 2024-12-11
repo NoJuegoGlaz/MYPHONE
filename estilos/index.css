@@ -1,0 +1,197 @@
+
+body {
+    font-family: Arial, sans-serif;    
+    background-color: #f4f4f4;   
+    font-size: clamp(14px, 5vw, 23px);    
+    
+}
+
+
+.cabeza {    
+    align-items: center;  
+    border-bottom: 4px solid rgb(10, 121, 135);   
+    display: flex;
+    justify-content: space-between;     
+}
+
+.logo {    
+    width: 10%; 
+    min-width: 10%; 
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {     
+    display: inline-flex;  
+    justify-content: space-between;   
+    gap: 7%;       
+}
+
+
+.menu a {    
+    font-size: clamp(14px, 3.5vw, 27px);
+    display: inline-flex;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;       
+}
+
+.menu a span {
+    border-bottom: 2px solid transparent; /* Borde transparente por defecto */
+    transition: border-color 0.3s ease; /* Transición suave */
+}
+
+.menu a:hover span {
+    border-color: gray; /* Cambia el color del borde al hacer hover */
+}
+
+a[href="#avanzado"] {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 0 3% 0 3%;
+}
+
+
+.carroPerfil {
+    min-width:0;
+    width: 10%;
+    height: fit-content;
+    min-height: 0;
+    display: flex;              
+    font-size: clamp(12px, 2vw, 18px);         
+}
+
+.carroPerfil img{
+    width: 50%;
+    height: fit-content;    
+    align-items: center;
+}
+
+
+.despleTotal{
+    display: flex;
+    position: relative; 
+    padding-top: 20px;
+    height:100%; 
+}
+.desplegables {    
+    width: 60%;    
+}
+
+.dropdown-btn {
+    background-color: rgb(241, 237, 237);
+    border: 1px solid darkgray;    
+    font-size: clamp(14px, 3vw, 23px);
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;     
+    border-radius: 5px;
+    width: 100%;   
+}
+
+.dropdown-btn:hover {
+    background-color: darkgray;
+    border-color: black;
+}
+
+.dropdown-btn img {     
+        width: 10%;  
+}
+
+.dropdown-content {   
+    display: flex;  
+    flex-wrap: nowrap;     
+    max-height: 0; /* Inicia colapsado */
+    overflow: hidden;
+    background-color: whitesmoke;          
+    transition: max-height 0.2s ease; /* Transición suave */      
+    margin-bottom: 2%; 
+    cursor: pointer;   
+    transition: filter 0.3s ease; /* Transición suave */
+    text-align: center;
+}
+
+.dropdown-content.show {
+    max-height: fit-content;
+}
+.dropdown-content img {          
+    min-width:0;  
+    width: 90%;    
+}
+
+.dropdown-content :hover {
+    filter: brightness(0.7); /* Ajusta el valor para oscurecer más o menos */
+}
+
+.especi {
+    font-size: medium;
+}
+.presio {
+    font-size: x-large;
+    color: rgb(10, 121, 135); ;
+}
+
+
+#visorimg {   
+    width: 100%;   /* Hace que el visor ocupe todo el ancho de la sección */
+    height: auto;
+}
+
+#visorimg img {
+    margin-left: 25%;
+    width: 50%;  /* La imagen seleccionada se ajustará al tamaño del contenedor */
+    height: auto;
+}
+.seleccion button {
+    margin-left: 25%;
+    width: 50%;  /* La imagen seleccionada se ajustará al tamaño del contenedor */
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;  
+    border-style: none;
+    border-color:rgb(14, 150, 168) ;      
+    background-color: rgb(14, 150, 168);
+}
+
+.seleccion button:hover {
+    filter: brightness(0.7);
+}
+
+.selecTotal{   
+    width: 40%;
+    height: fit-content;
+    position: sticky;
+    top: 10px; /* Se mantiene a 10px del borde superior */    
+    padding: 20px;    
+    z-index: 1000; /* Asegúrate de que se quede encima */                    
+}
+
+#total{
+    margin-top: 10%;
+    margin-left: 6%;
+    display: flex;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    width: 90%;     
+    height: fit-content;  
+    font-size: x-large;
+    text-decoration-color: white;    
+    font-size: clamp(14px, 3vw, 20px);      
+}
+
+.marketing{
+    font-size: clamp(12px, 2vw, 16px); 
+}
+
+footer{
+    background-color:  rgb(10, 121, 135);    
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 20px;  
+  border-bottom-right-radius: 20px; 
+  }
+  
